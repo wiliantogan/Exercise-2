@@ -1,0 +1,59 @@
+table {
+	border : none;
+	border-collapse: collapse;
+}
+.main-background{
+    background-image: url("./images/waterfall.jpg");
+}
+h1 {
+	font-family: 'Times New Roman', Times, serif;
+	background-color: aqua;
+	color: rgb(215, 27, 253);
+	font-size: xx-large;
+	text-align: center;
+}
+h2 {
+	font-family: 'Arial';
+	color: rgb(244, 247, 62);
+	font-size: xx-large;
+	text-align: center;
+}
+h3 {
+	font-family: 'Serif';
+	color: rgb(231, 16, 16);
+	font-size: x-large;
+	text-align: center;
+}
+td{
+	padding: 5px;
+	border: none;
+}
+input[type=text]{
+	padding: 10px;
+	width: 430px;
+	border-style: solid;
+	text-align: right;
+	font-size: 20px;
+}
+input[type=text]:disabled{
+	background-color: rgb(228, 222, 222);
+}
+.btn {
+	width: 100px;
+	height: 40px;
+	background-color: #1166c7;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.opr{
+		background-color: #c41eae;
+}
+.clr{
+	background-color: #e01d0f;;
+}
+.hsl{
+	background-color: rgb(26, 207, 9);
+}
